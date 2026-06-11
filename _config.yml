@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Student at Xidian University" # Update this with your name and/or a title for your site
+title                    : "Hanmo Chen Personal Page" # Update this with your name and/or a title for your site
 title_separator          : "-"
 name                     : &name "Hanmo Chen"
 description              : &description "Hanmo Chen's academic portfolio on multimodal generation, motion understanding, and efficient video diffusion"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -218,18 +218,18 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
+  # teaching:
+  #   output: true
+  #   permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
