@@ -9,7 +9,7 @@ redirect_from:
 
 I am **Hanmo Chen**, a master's student at the Hangzhou Institute of Xidian University, advised by Prof. Cheng Deng. Before that, I received my bachelor's degree from the College of Computer Science and Technology and Jianxing Honors College at Zhejiang University of Technology.
 
-My research interests lie in **audio-visual generation**, **multimodal understanding and generation**, and **motion capture**. I am especially interested in building generative and multimodal systems that can better model fine-grained temporal dynamics, motion-language alignment, and efficient long-context video generation.
+My research interests lie in **Audio-Visual joint Generation**, **Multimodal Mnderstanding and Generation**, and **Motion Capture**. I am especially interested in building generative and multimodal systems that can better model fine-grained temporal dynamics, motion-language alignment, and efficient long-context video generation.
 
 Research Interests
 ======
@@ -31,6 +31,11 @@ News
 Selected Publications
 ======
 
+- **Beyond Global Alignment: Fine-Grained Motion-Language Retrieval via Pyramidal Shapley-Taylor Learning**  
+  Hanmo Chen, Guangtao Lyu, Chenghao Xu, Jiexi Yan, Xu Yang, and Cheng Deng.  
+  *ICML 2026 Spotlight.*  
+  [[Paper](https://arxiv.org/pdf/2601.21904)]
+
 - **AStF: Motion Style Transfer via Adaptive Statistics Fusor**  
   Hanmo Chen, Chenghao Xu, Jiexi Yan, and Cheng Deng.  
   *Proceedings of the 33rd ACM International Conference on Multimedia (ACM Multimedia 2025).*  
@@ -41,11 +46,6 @@ Selected Publications
   *arXiv preprint.*  
   [[Paper](https://arxiv.org/pdf/2601.21896)]
 
-- **Beyond Global Alignment: Fine-Grained Motion-Language Retrieval via Pyramidal Shapley-Taylor Learning**  
-  Hanmo Chen, Guangtao Lyu, Chenghao Xu, Jiexi Yan, Xu Yang, and Cheng Deng.  
-  *ICML 2026 Spotlight.*  
-  [[Paper](https://arxiv.org/pdf/2601.21904)]
-
 - **Multipath and Noise Resilient Direction of Arrival Method for Low-Cost Mechanical Arm Calibration**  
   Hanmo Chen, Qianwei Zho, Haigen Hu, and Baoqing Li.  
   *Computers and Electrical Engineering.*  
@@ -54,14 +54,8 @@ Selected Publications
 Selected Projects
 ======
 
-**High-Order Statistics Modeling for Human Motion Style Transfer**  
-I proposed **AStF**, a motion style transfer framework that models complex motion styles with high-order statistics, including skewness and kurtosis. The method also introduces a motion consistency regularization discriminator to improve temporal consistency between generated motions and reference style motions.
-
-**Salience-Based KV Cache Optimization for Autoregressive Video Diffusion**  
-I worked on efficient long video generation by designing a salience-estimation-based KV cache policy. The method dynamically retains or discards cached tokens during inference to reduce cache size while preserving generation quality.
-
 **Astronomical Image Processing and Enhancement**  
-As a co-founder and image algorithm engineer at Hangzhou Hengxin Yan Optoelectronics Co., Ltd., I develop astronomical image processing algorithms, including dynamic range stretching, star detection and localization, and deep-sky image registration and stacking. These algorithms have been integrated into the company's astronomical imaging devices and software systems.  
+As a **co-founder** and **imaging algorithm engineer** at Hangzhou Hengxinyan  Optoelectronics Co., Ltd., I develop astronomical image processing algorithms, including dynamic range deep sky stretching, star detection and localization, and deep-sky image registration and stacking, etc. These algorithms have been integrated into the company's astronomical imaging devices and software systems.  
 [[Company Website](https://hxyoptics.tech)]
 
 **Deep Learning and Ultrasonic Microarray-Based Robotic Arm Calibration**  
@@ -70,22 +64,23 @@ As the project leader of a national-level undergraduate innovation project, I wo
 Experience
 ======
 
+- **Imaging Algorithm Engineer**, Vivo Mobile Communication Co., Ltd.  
+  *Nov. 2023 -- Present*
+
+- **Co-founder & Image Algorithm Engineer**, Hangzhou Hengxinyan Optoelectronics Co., Ltd.  
+  *Nov. 2023 -- Present*
+
 - **NLP Algorithm Engineer Intern**, Hangzhou Xihu Xinchen Technology Co., Ltd.  
   *Nov. 2023 -- Apr. 2024*
-
-- **Co-founder & Image Algorithm Engineer**, Hangzhou Hengxin Yan Optoelectronics Co., Ltd.  
-  *Nov. 2023 -- Present*
 
 Awards
 ======
 
-- National Scholarship for Graduate Students, 2025
-- Outstanding Graduate of Zhejiang University of Technology, 2022--2024
-- Second-Class Academic Scholarship, 2022--2024
-- First Prize, China University Big Data Challenge, 2022
-- National Second Prize, 3D Recognition Track, China Robot Competition, 2022
+- National Scholarship for Graduate Students (硕士研究生国家奖学金), 2025
+- Outstanding Graduate of Zhejiang University of Technology (浙江工业大学优秀毕业生), 2022--2024
+- First Prize, China University Big Data Challenge (中国大数据挑战赛), 2022
+- National Second Prize, 3D Recognition Track, China Robot Competition (RoboCup中国机器人大赛), 2022
 
 Skills
 ======
-
 I am familiar with **Python**, **PyTorch**, **Linux**, **Shell scripting**, and **Git**. I also have experience with **Diffusion Models**, **Transformers**, and multi-node multi-GPU model training.
